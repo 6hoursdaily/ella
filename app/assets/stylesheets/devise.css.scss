@@ -1,0 +1,19 @@
+/* Devise form fields */
+@media only screen and (max-width: 568px) {
+  .devise-form-fields {
+    input { width: 100%; }
+  }
+}
+
+@media only screen and (min-width: 569px) and (max-width: 767px) {
+  .devise-form-fields {
+    input { width: 50%; }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .devise-form-fields {
+    input { width: 30%; }
+  }
+}
+/* Devise form fields */
