@@ -141,3 +141,17 @@ test:
         read:
           mode: :primary
         max_pool_size: 1
+
+production:
+  clients:
+    default:
+      database: ella
+      hosts:
+        - <%= ENV["MONGODB_URI"] %>
+      options:
+        read:
+          mode: :primary
+          pool_size: 35
+          connect_timeout: 15
+  options:
+    raise_not_found_error: false
