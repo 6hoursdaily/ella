@@ -3,7 +3,13 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 #marvel {
-  width: 800px;
-  height: 600px;
+  min-height: 600px;
+  min-width: 700px;
+  frameBorder: none;
+}
+
+#mini-marvel {
+  min-height: 600px;
+  max-width: 350px;
   frameBorder: none;
 }

@@ -1,3 +1,8 @@
-#demo.text-center
+#demo.text-center.hidden-md.hidden-sm.hidden-xs
   %iframe{:id => "marvel", :src => "https://marvelapp.com/2dc57ih/screen/15236044", frameBorder: "none"}
-
+#demo.text-center.hidden-lg
+  %iframe{:id => "mini-marvel", :src => "https://marvelapp.com/2dc57ih/screen/15236044", frameBorder: "none"}
+.text-center
+  %p
+    Can't view our demo?
+    = link_to "Try our Marvel app!", "https://marvelapp.com/2dc57ih/screen/15236044", :target => :blank
