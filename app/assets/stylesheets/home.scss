@@ -3,13 +3,25 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 #marvel {
-  min-height: 600px;
-  min-width: 700px;
+  min-height: 500px;
+  min-width: 600px;
   frameBorder: none;
+  top: 50%;
 }
 
 #mini-marvel {
-  min-height: 600px;
+  min-height: 450px;
   max-width: 350px;
   frameBorder: none;
+  top: 50%;
+}
+
+#bg-image {
+  background-image: url('../assets/bgimage.jpg');
+  top: 24%;
+  height: 34%;
+  display: block;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
 }
